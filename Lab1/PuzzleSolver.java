@@ -46,8 +46,7 @@ public class PuzzleSolver{
 			// Add the current one to closedSet.
 			closedSet.add(clone2dArray(puzzle));
 
-			// Uppdatera solutionnumber så det blir samma nummer som lösningen har i
-			// allSteps
+			// Update Solutionnumber
 			solutionNumber = findSolution(puzzle, allSteps);
 			System.out.print("\nnumber in allSteps: " + solutionNumber + "\n");
 
